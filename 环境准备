@@ -10,3 +10,6 @@
     gradle cleanidea eclipse
     
     命令执行成功之后，会生成一个.project的文件。打开eclipse，导入该项目即可。
+    
+    导入之后，可能会有!号，说明可能所依赖的jar包或者所依赖的Projects没有导入，右键bulid path，进行确认，然后对所依赖的projects进行编译，导入步骤即可。
+    对于所依赖的jar，如果是第三方的，刚相应的下载即可。
