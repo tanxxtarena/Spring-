@@ -1,0 +1,12 @@
+1、下载Spring源码，使用git。
+    本地先安装git，可以上网找安装教程；
+    找个工作盘和对应的工作目录，使用git clone https://github.com/spring-projects/spring-framework.git 下载源码到本地。
+    
+2、下载并安装gradle。
+    下载地址：https://gradle.org/releases/ 找到对应的系统的对应版本，下载解压，并配置Path。
+    
+3、编译需要的模块，并导入到eclipse中。
+    进来所下载的源码目录下，找到要编译的模块，打开git 窗口，执行下面的命令：
+    gradle cleanidea eclipse
+    
+    命令执行成功之后，会生成一个.project的文件。打开eclipse，导入该项目即可。
