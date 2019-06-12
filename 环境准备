@@ -13,3 +13,7 @@
     
     导入之后，可能会有!号，说明可能所依赖的jar包或者所依赖的Projects没有导入，右键bulid path，进行确认，然后对所依赖的projects进行编译，导入步骤即可。
     对于所依赖的jar，如果是第三方的，刚相应的下载即可。
+4、缺少jar的解决方案。
+   使用cmd在spring-framework目录下执行
+   gradle objenesisRepackJar
+   gradle cglibRepackJar
